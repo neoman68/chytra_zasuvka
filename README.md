@@ -1,7 +1,7 @@
 # Chytrá zásuvka
 
-Systém slouží k zapínání a vypínání elektrických spotřebičů v závislosti na momentální sazbě odebírané elektrické
-energie. Tuto sazbu (nízkou nebo vysokou, lidově řečeno "denní" nebo "noční" proud)) určuje dodavatel a to v závislosti 
+Systém slouží k zapínání elektrických spotřebičů v závislosti na momentální sazbě odebírané elektrické energie. 
+Tuto sazbu (nízkou nebo vysokou, lidově řečeno "denní" nebo "noční" proud)) určuje dodavatel a to v závislosti 
 na konkrétním tarifu na smlouvě o odběru. Standardně jsou spotřebiče (např. bojler nebo přímotop) připojeny přes 
 stykač, který je ovládán dálkově distributorem elektrické energie pomocí kódovaných povelů, přenášených po el. síti. 
 
@@ -18,7 +18,7 @@ Použití je jednoduché: Standardně je chytrá zásuvka vložena mezi spotřen
 a hlídá případný stisk tlačítka. Pokud běží denní proud, LED dioda jednou za cca. 10 sec. krátce blikne jako potvrzení
 o přijetí dat z vysílače, v případě běhu nočního proudu svítí trvale, obojí v zelené barvě (klidový stav).
 
-Stačí tedy jen zapnout pračku nebo myčku, spustit příslušný program a stisknout tlačítko na chytré zásuvce.
+Stačí tedy jen zapnout pračku nebo myčku, spustit u ní příslušný program a poté stisknout tlačítko na chytré zásuvce.
 
 Po stisku tlačítka se rozsvítí červená LED, relé sepne, tím odpojí spotřebič od el. sítě a buzzer 3x krátce pípne. Tím 
 je zařízení v tzv. čekacím stavu. Dále pravidelně načítá informace od vysílače a pokud přijatý kód obsahuje informaci 
