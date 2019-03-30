@@ -1,4 +1,4 @@
-# chytra_zasuvka
+# Chytrá zásuvka
 
 Systém slouží k zapínání a vypínání elektrických spotřebičů v závislosti na momentální sazbě odebírané elektrické
 energie. Tuto sazbu (nízkou nebo vysokou, lidově řečeno "denní" nebo "noční" proud)) určuje dodavatel a to v závislosti 
