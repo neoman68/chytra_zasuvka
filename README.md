@@ -18,14 +18,17 @@ Použití je jednoduché: Standardně je chytrá zásuvka vložena mezi spotřen
 a hlídá případný stisk tlačítka. Pokud běží denní proud, LED dioda jednou za cca. 10 sec. krátce blikne jako potvrzení
 o přijetí dat z vysílače, v případě běhu nočního proudu svítí trvale, obojí v zelené barvě (klidový stav).
 
-Po stisku tlačítka se rozsvítí červená LED, relé sepne, tím odpojí spotřebič a buzzer 3x krátce pípne. Tím je zařízení
-v tzv. čekacím stavu. Dále pravidelně načítá informace od vysílače a pokud přijatý kód obsahuje informaci o změně sazby
-na noční proud, relé se vypne, spotřebič se připojí k el. síti a rozsvítí se zelená LED. 
+Stačí tedy jen zapnout pračku nebo myčku, spustit příslušný program a stisknout tlačítko na chytré zásuvce.
+
+Po stisku tlačítka se rozsvítí červená LED, relé sepne, tím odpojí spotřebič od el. sítě a buzzer 3x krátce pípne. Tím 
+je zařízení v tzv. čekacím stavu. Dále pravidelně načítá informace od vysílače a pokud přijatý kód obsahuje informaci 
+o změně sazby na noční proud, relé se vypne, spotřebič se připojí k el. síti a rozsvítí se zelená LED. 
 
 Stisk tlačítka v době, kdy běží noční proud, nemá žádný vliv, pouze buzzer 5x krátce pípne. 
 
 Stiskem tlačítka v době, kdy je zařízení v čekacím režimu, je čekací režim zrušen a zařízení se uvede do klidového stavu.
 
-Pro RF komunikaci byla použita tato knihovna  http://mchr3k.github.com/arduino-libs-manchester/ , kterou přikládám.
+Pro RF komunikaci byla použita tato knihovna  http://mchr3k.github.com/arduino-libs-manchester/ , kterou přikládám a RF
+moduly STX882 a SRX882, které mě svým výkonem a citlivostí mile překvapily.
 
 Vzhledem k jednoduchosti programového kódu předpokládám kompatibilitu se všemi platformami Arduino. 
